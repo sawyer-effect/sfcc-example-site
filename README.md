@@ -18,14 +18,17 @@
 ### Use build suite for deployment
 
 * Copy file `build/sfcc-example-site.json` to `build-suite/build` folder and update connection params
-* Run command to deploy code: `grunt dist --project=sfccexample-site`
+* Run command to build code: `grunt build --project=sfcc-example-site`
+* Run command to deploy code: `grunt dist --project=sfcc-example-site`
 * Run command to import sites: `grunt importSite --project=sfcc-example-site`
 * Go to Business Manager and generate search indexes.
 
 ### Sync sandbox without build
 
 * Inside this project folder, copy `dw.json.example` to `dw.json` and update connection parameters
-* (More steps coming soon)
+* Run command: `npm run watch` to watch, compile and upload files to the sandbox
+* Run command `npm run watch:compile` to watch and complie files (If you are using an editor like VS or Eclipse to upload changes)
+* Have fun!
 
 ## Further customization
 
