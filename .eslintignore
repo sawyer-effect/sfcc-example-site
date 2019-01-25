@@ -1,0 +1,6 @@
+cartridges/app_custom_example/cartridge/static/
+coverage/
+doc/
+bin/
+
+webpack.config.js
