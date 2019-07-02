@@ -37,7 +37,8 @@
         ]
       },
       "cartridges": [
-        "app_custom_example"
+        "app_custom_example",
+        "LINK_cybersource"
       ]
     },
     {
