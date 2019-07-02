@@ -1,8 +1,7 @@
 <isdecorate template="common/layout/page">
     <isscript>
         var assets = require('*/cartridge/scripts/assets.js');
-        assets.addJs('/js/productTile.js');
-        assets.addCss('/css/homePage.css');
+        assets.addCss('/css/pageTest.css');
     </isscript>
 
     <!-- +1.888.555.0199 --><!--This phone is a requirement to support existing Gomez monitor of SiteGenesis. Demadware customers can remove this.-->
@@ -42,16 +41,4 @@
             </form>
         </div>
     </div>
-
-
-    <div class="row">
-        <div class="col-sm-5">
-        <h3> a col-sm-5 </h3>
-        </div>
-        <div class="col-sm-7">
-        <isslot id="more-alive" description="ToShowMore Alive Content" context="global" />
-        <h3> and a col-sm-7 with an isslot "more-alive"</h3>
-        </div>
-    </div>
-
 </isdecorate>
