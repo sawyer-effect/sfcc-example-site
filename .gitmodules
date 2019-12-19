@@ -1,0 +1,9 @@
+[submodule "storefrontdata"]
+	path = storefrontdata
+	url = https://github.com/SalesforceCommerceCloud/storefrontdata.git
+[submodule "storefront-reference-architecture"]
+	path = storefront-reference-architecture
+	url = https://github.com/SalesforceCommerceCloud/storefront-reference-architecture.git
+[submodule "build-site"]
+	path = build-site
+	url = https://github.com/SalesforceCommerceCloud/build-suite.git
