@@ -62,21 +62,22 @@ module.exports = [{
                     loader: 'css-loader',
                     options: {
                         url: false,
-                        minimize: true
                     }
                 }, {
                     loader: 'postcss-loader',
                     options: {
                         plugins: [
-                            require('autoprefixer')()
-                        ]
+                            require('autoprefixer')(),
+                            require('cssnano')()
+                        ],
+                        minimize: true
                     }
                 }, {
                     loader: 'sass-loader',
                     options: {
                         includePaths: [
-                            path.resolve('../storefront-reference-architecture/node_modules'),
-                            path.resolve('../storefront-reference-architecture/node_modules/flag-icon-css/sass')
+                            path.resolve('node_modules'),
+                            path.resolve('node_modules/flag-icon-css/sass')
                         ]
                     }
                 }]
